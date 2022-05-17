@@ -1,0 +1,2002 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>3b78321f59154fe2adffcb1eff0bb8cb</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="hows-the-food-safety-in-montgomery-county" class="cell markdown" id="HwemJrXCJ9X-">
+<h1><strong>How's the Food Safety in Montgomery County?</strong></h1>
+<p><strong>This tutorial analyzes the inspections for Montgomery County's Food businesses.</strong></p>
+<p><strong>By Asma Ilyas</strong></p>
+</section>
+<section id="outline" class="cell markdown" id="FJk-Ou3oYkKV">
+<h1><strong>Outline</strong></h1>
+<ol>
+<li><p>Introduction</p></li>
+<li><p>Getting Started</p></li>
+</ol>
+<ul>
+<li>2.1 Required Libraries</li>
+<li>2.2 Data Collection</li>
+<li>2.3 Data Scraping</li>
+</ul>
+<ol>
+<li>Data Management/Representation</li>
+</ol>
+<ul>
+<li>3.1 Data Modification</li>
+<li>3.2 Rechecking Data</li>
+<li>3.3 Data Combining</li>
+</ul>
+<ol>
+<li>Exploratory Data Analysis<br />
+</li>
+</ol>
+<ul>
+<li>4.1 Analyzing Inspections according to the Five Cities</li>
+<li>4.2 Analyzing all Inspections happened in Montgomery County</li>
+</ul>
+<ol>
+<li><p>Hypothesis Testing</p></li>
+<li><p>Overall Predictions and Insights</p></li>
+</ol>
+</section>
+<section id="1-introduction" class="cell markdown" id="3p-U9mNkPqag">
+<h1><strong>1. Introduction</strong></h1>
+<p>According to the Centers for Disease Control and Prevention (CDC), about 1 in 6 people gets sick by consuming contaminate food, and these foodborne diseases cause 48 million illnesses and about 3,000 deaths each year in the United States. <a href="https://www.waldenu.edu/online-masters-programs/master-of-public-health/resource/why-is-food-safety-so-important-to-public-health">Here</a></p>
+<p>Food safety is an important aspect to reduce the risk of diseases and deaths that are caused by consuming contaminated foods and beverages.</p>
+<p>The Licensure &amp; Regulatory Services Program inspects all the licensed retail food establishments in Montgomery County. Using LRSP's Food Inspection data and Data Science skills, I will present and examine the frequency of the inspections conducted in the Montgomery County's restaurants on a routine basis. This will give an insight of how safe and healthy our food choices are and will be in the future.</p>
+</section>
+<section id="2-getting-started" class="cell markdown" id="YcWuP_SbcfJg">
+<h1><strong>2. Getting Started</strong></h1>
+</section>
+<div class="cell markdown" id="bNPY0-h2colj">
+<p><strong>2.1 Required Libraries</strong> The following Python libraries will be required for this tutorial;</p>
+<ul>
+<li>Pandas: using for manipulating Tabular Data (i.e. DataFrames)</li>
+<li>Requests: using requests to get URL with HTTP protocol.</li>
+<li>Numpy: using to multidimensional data</li>
+<li>Matplotlib: using to form all the plot.</li>
+<li>Seaborn: Using to contruct the depictable plots.</li>
+<li>Datetime: using to show exact date and time.</li>
+<li>Folium:Using to construct a Map</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="21" id="m3PU9VaIpmuo">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#importing basic libraries </span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> datetime <span class="im">as</span> dt</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> folium</span></code></pre></div>
+</div>
+<div class="cell markdown" id="04ns4WxFKe2z">
+<p><strong>2.2 Data Collection</strong></p>
+<p>Dataset on Food Insecption is taken from the <a href="https://opendata.maryland.gov/">Maryland's Open Data Portal</a>, and provided by the <a href="https://data.montgomerycountymd.gov/Health-and-Human-Services/Food-Inspection/5pue-gfbe">dataMontgomery</a>.</p>
+</div>
+<div class="cell markdown" id="qhfJnDFVqAgi">
+<p><strong>2.3 Data Scraping</strong></p>
+<p>Loading the CSV file as Pandas dataframe to read the data directly from the database using read_csv() function.</p>
+<p>Displaying the dataset gathered Food Inspection in Montgomery County to have a sense of what is in the Dataset.</p>
+</div>
+<div class="cell code" data-execution_count="22" data-colab="{&quot;height&quot;:956,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="1hL0G7ccqhO7" data-outputId="27ef696e-8e4d-41f0-d378-8ec1124b6861">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#fetching dataset</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>inspection <span class="op">=</span> pd.read_csv(<span class="st">&quot;/content/sample_data/Food_Inspection.csv&quot;</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">#displaying dataset</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>inspection</span></code></pre></div>
+<div class="output execute_result" data-execution_count="22">
+
+  <div id="df-c8107224-55d1-4cbb-ba06-ad23b9addf45">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Establishment ID</th>
+      <th>Name</th>
+      <th>Address 1</th>
+      <th>Address 2</th>
+      <th>City</th>
+      <th>Zip</th>
+      <th>Inspection Date</th>
+      <th>Inspection Results</th>
+      <th>Food from Approved Source (C)</th>
+      <th>Food Protected from Contamination (C)</th>
+      <th>...</th>
+      <th>Nutritional Labeling</th>
+      <th>Trans Fat Ban</th>
+      <th>No-Smoking Sign Posted</th>
+      <th>Inspection Type</th>
+      <th>Owner</th>
+      <th>Category</th>
+      <th>Type</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>33467</td>
+      <td>THE THAI KITCHEN</td>
+      <td>7015 WISCONSIN AVE</td>
+      <td>NaN</td>
+      <td>CHEVY CHASE</td>
+      <td>20815</td>
+      <td>08/04/2021</td>
+      <td>Critical Violations Corrected</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Comprehensive</td>
+      <td>THE THAI KITCHEN LLC</td>
+      <td>Restaurant</td>
+      <td>Food</td>
+      <td>38.9797</td>
+      <td>-77.0916</td>
+      <td>(38.9797, -77.0916)</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>28613</td>
+      <td>7-ELEVEN #32997</td>
+      <td>779 HUNGERFORD DR</td>
+      <td>NaN</td>
+      <td>ROCKVILLE</td>
+      <td>20850</td>
+      <td>04/14/2022</td>
+      <td>Critical Violations Corrected</td>
+      <td>In Compliance</td>
+      <td>Out of Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Monitoring</td>
+      <td>TILAHUN FAMILY INC</td>
+      <td>Market</td>
+      <td>Food</td>
+      <td>39.0939</td>
+      <td>-77.1528</td>
+      <td>(39.0939, -77.1528)</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>22416</td>
+      <td>BARLOW BUILDING CAFE</td>
+      <td>5454 WISCONSIN AVE.</td>
+      <td>STE. 403</td>
+      <td>CHEVY CHASE</td>
+      <td>20815</td>
+      <td>04/15/2022</td>
+      <td>Critical Violations Corrected</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Comprehensive</td>
+      <td>BARLOW BUILDING CAFE, INC.</td>
+      <td>Restaurant</td>
+      <td>Food</td>
+      <td>38.9626</td>
+      <td>-77.0872</td>
+      <td>(38.9626, -77.0872)</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>19002</td>
+      <td>STARBUCKS COFFEE #11130</td>
+      <td>10155 NEW HAMPSHIRE AVE</td>
+      <td>NaN</td>
+      <td>SILVER SPRING</td>
+      <td>20903</td>
+      <td>01/27/2022</td>
+      <td>No Critical Violations Noted</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Monitoring</td>
+      <td>STARBUCKS CORP LICENSE SERVICE</td>
+      <td>Restaurant</td>
+      <td>Food</td>
+      <td>39.0217</td>
+      <td>-76.9766</td>
+      <td>(39.0217, -76.9766)</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>46963</td>
+      <td>DOKI TOKI</td>
+      <td>202 ELLINGTON BLVD</td>
+      <td>NaN</td>
+      <td>GAITHERSBURG</td>
+      <td>20878</td>
+      <td>04/14/2022</td>
+      <td>Critical Violations Corrected</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Change of Ownership - Environmental</td>
+      <td>DOKI TOKI LLC</td>
+      <td>Restaurant</td>
+      <td>Food</td>
+      <td>39.1150</td>
+      <td>-77.2049</td>
+      <td>(39.115, -77.2049)</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>12774</th>
+      <td>2680</td>
+      <td>WING WAH CARRYOUT</td>
+      <td>41 RANDOLPH RD.</td>
+      <td>NaN</td>
+      <td>SILVER SPRING</td>
+      <td>20904</td>
+      <td>10/19/2021</td>
+      <td>Critical Violations Corrected</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Monitoring</td>
+      <td>CHUN &amp; FU, INC.</td>
+      <td>Carry Out</td>
+      <td>Food</td>
+      <td>39.0764</td>
+      <td>-77.0041</td>
+      <td>(39.0764, -77.0041)</td>
+    </tr>
+    <tr>
+      <th>12775</th>
+      <td>18228</td>
+      <td>PAPA JOHN'S PIZZA #3051</td>
+      <td>11638 ROCKVILLE PIKE</td>
+      <td>NaN</td>
+      <td>ROCKVILLE</td>
+      <td>20852</td>
+      <td>10/20/2021</td>
+      <td>No Critical Violations Noted</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Monitoring</td>
+      <td>COLONEL'S LIMITED, LLC</td>
+      <td>Restaurant</td>
+      <td>Food</td>
+      <td>39.0483</td>
+      <td>-77.1143</td>
+      <td>(39.0483, -77.1143)</td>
+    </tr>
+    <tr>
+      <th>12776</th>
+      <td>21305</td>
+      <td>LIMERICK PUB</td>
+      <td>11301 ELKIN ST.</td>
+      <td>NaN</td>
+      <td>SILVER SPRING</td>
+      <td>20902</td>
+      <td>10/19/2021</td>
+      <td>No Critical Violations Noted</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Monitoring</td>
+      <td>LIMERICK PUB, LLC.</td>
+      <td>Restaurant</td>
+      <td>Food</td>
+      <td>39.0405</td>
+      <td>-77.0501</td>
+      <td>(39.0405, -77.0501)</td>
+    </tr>
+    <tr>
+      <th>12777</th>
+      <td>17201</td>
+      <td>WHOLE FOODS MARKET #10180</td>
+      <td>316 KENTLANDS BLVD.</td>
+      <td>NaN</td>
+      <td>GAITHERSBURG</td>
+      <td>20878</td>
+      <td>11/17/2020</td>
+      <td>No Critical Violations Noted</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Monitoring</td>
+      <td>WHOLE FOODS MARKET GROUP, INC.</td>
+      <td>Market</td>
+      <td>Food</td>
+      <td>39.1228</td>
+      <td>-77.2378</td>
+      <td>(39.1228, -77.2378)</td>
+    </tr>
+    <tr>
+      <th>12778</th>
+      <td>19049</td>
+      <td>HARRIS TEETER #325</td>
+      <td>14101 DARNESTOWN RD.</td>
+      <td>NaN</td>
+      <td>GERMANTOWN</td>
+      <td>20874</td>
+      <td>01/13/2021</td>
+      <td>No Critical Violations Noted</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Food Complaint</td>
+      <td>HARRIS TEETER, LLC</td>
+      <td>Market</td>
+      <td>Food</td>
+      <td>39.1044</td>
+      <td>-77.2916</td>
+      <td>(39.1044, -77.2916)</td>
+    </tr>
+  </tbody>
+</table>
+<p>12779 rows × 31 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-c8107224-55d1-4cbb-ba06-ad23b9addf45')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-c8107224-55d1-4cbb-ba06-ad23b9addf45 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-c8107224-55d1-4cbb-ba06-ad23b9addf45');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell code" data-execution_count="23" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="VjI08NCLrhhD" data-outputId="35c3901d-e241-476a-f7a8-bef6638690e1">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#checking how complete each coulmn is in this dataset</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>inspection.count()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="23">
+<pre><code>Establishment ID                           12779
+Name                                       12779
+Address 1                                  12779
+Address 2                                    997
+City                                       12779
+Zip                                        12779
+Inspection Date                            12779
+Inspection Results                         12779
+Food from Approved Source (C)              12779
+Food Protected from Contamination (C)      12779
+Ill Workers Restricted (C)                 12779
+Proper Hand Washing (C)                    12779
+Cooling Time and Temperature (C)           12779
+Cold Holding Temperature (C)               12779
+Hot Holding Temperature (C)                12779
+Cooking Time and Temperature (C)           12779
+Reheating Time and Temperature (C)         12779
+Hot and Cold Running Water Provided (C)    12779
+Proper Sewage Disposal (C)                 12779
+Toxic Substances &amp; Pesticides              12779
+Rodent and Insects                         12779
+Nutritional Labeling                       12779
+Trans Fat Ban                              12779
+No-Smoking Sign Posted                     12779
+Inspection Type                            12693
+Owner                                      12767
+Category                                   12234
+Type                                       12779
+Latitude                                   12750
+Longitude                                  12750
+Location                                   12750
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="24" data-colab="{&quot;height&quot;:300,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="wukaOCYAjKAz" data-outputId="b0517b92-c3cf-4c6a-92c4-97d55be99c94">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#displaying the summary statistics of the dataset</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>inspection.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="24">
+
+  <div id="df-541b24a9-9767-4e78-a14f-3169cc9269ce">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Establishment ID</th>
+      <th>Zip</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>12779.000000</td>
+      <td>1.277900e+04</td>
+      <td>12750.000000</td>
+      <td>12750.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>24305.354957</td>
+      <td>6.993587e+04</td>
+      <td>39.081923</td>
+      <td>-77.021473</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>12926.941130</td>
+      <td>3.202079e+06</td>
+      <td>0.073532</td>
+      <td>3.826243</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>11.000000</td>
+      <td>2.070500e+04</td>
+      <td>38.949200</td>
+      <td>-77.519000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>17984.000000</td>
+      <td>2.085100e+04</td>
+      <td>39.022100</td>
+      <td>-77.199000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>27505.000000</td>
+      <td>2.087600e+04</td>
+      <td>39.077000</td>
+      <td>-77.124700</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>33363.000000</td>
+      <td>2.090200e+04</td>
+      <td>39.144100</td>
+      <td>-77.053000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>47089.000000</td>
+      <td>2.090245e+08</td>
+      <td>39.344600</td>
+      <td>77.196700</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-541b24a9-9767-4e78-a14f-3169cc9269ce')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-541b24a9-9767-4e78-a14f-3169cc9269ce button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-541b24a9-9767-4e78-a14f-3169cc9269ce');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="c9yjRD_ThSdu">
+<p>The dataset contains all the required information of the food retailers, and statistics for their food inspection reports. There are 12779 inspections reported in the dataset. I used count() method to see the missing data for each column. It does not seem to have a lot of missing data, which will be great in doing analysis. Lastly, I used descirbe() method to see the summary of statistics pertaining to the quantative columns.</p>
+<p>As of now, we can see the DataFrame that this dataset contains a lot of information about the retailer, and how the inspection has turn out for each food retailer. However; for this analysis, I will focus on overall inspection results. Results of different cities of the Montgomery County to show better or worst food safety contributions. I will also be using the date when the inspection has been done, and some of the Critical Violation (mentioned in the dataset) of the food safety. This will be helpful to analyze the final hypothesis for this tutorial.</p>
+</div>
+<div class="cell markdown" id="zi8QY-vBqukq">
+<p>#<strong>3. Data Management/Representation</strong></p>
+</div>
+<div class="cell markdown" id="STVjmMytrO5K">
+<p><strong>3.1 Data Modification</strong></p>
+</div>
+<div class="cell code" data-execution_count="25" data-colab="{&quot;height&quot;:1000,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="HE2Qm1B5NF-R" data-outputId="3306a835-12e5-43ec-fca1-9d15da93ec01">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Sorting the Establishment IDs in descending order to have random inspections data results</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Also, copying the first 800 sorted into a new DataFrame that I will use for further analysis</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>sorted_Ids <span class="op">=</span> inspection.copy().sort_values(<span class="st">&#39;Establishment ID&#39;</span>, ascending <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>inspection_df <span class="op">=</span> sorted_Ids.head(<span class="dv">800</span>)</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>inspection_df.head(<span class="dv">10</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="25">
+
+  <div id="df-7e786efd-2872-4526-9f10-6ec857214209">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Establishment ID</th>
+      <th>Name</th>
+      <th>Address 1</th>
+      <th>Address 2</th>
+      <th>City</th>
+      <th>Zip</th>
+      <th>Inspection Date</th>
+      <th>Inspection Results</th>
+      <th>Food from Approved Source (C)</th>
+      <th>Food Protected from Contamination (C)</th>
+      <th>...</th>
+      <th>Nutritional Labeling</th>
+      <th>Trans Fat Ban</th>
+      <th>No-Smoking Sign Posted</th>
+      <th>Inspection Type</th>
+      <th>Owner</th>
+      <th>Category</th>
+      <th>Type</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2152</th>
+      <td>47089</td>
+      <td>GREEN LEAF CAFE</td>
+      <td>9715 KEY WEST AVE</td>
+      <td>NaN</td>
+      <td>ROCKVILLE</td>
+      <td>20850</td>
+      <td>04/22/2022</td>
+      <td>No Critical Violations Noted</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Pre-Opening - Environmental</td>
+      <td>GREEN LEAF CAFE LLC</td>
+      <td>Market</td>
+      <td>Food</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4207</th>
+      <td>47086</td>
+      <td>BEAUTI-BAR</td>
+      <td>310 TULIP AVE</td>
+      <td>NaN</td>
+      <td>TAKOMA PARK</td>
+      <td>20912</td>
+      <td>04/29/2022</td>
+      <td>No Critical Violations Noted</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Pre-Opening - Environmental</td>
+      <td>CROSSROADS COMMUNITY FOOD NETWORK</td>
+      <td>Caterer</td>
+      <td>Food</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4350</th>
+      <td>47072</td>
+      <td>WE BAKE AND BREW CAF�</td>
+      <td>8814 BROOKVILLE RD</td>
+      <td>NaN</td>
+      <td>SILVER SPRING</td>
+      <td>20910</td>
+      <td>05/02/2022</td>
+      <td>No Critical Violations Noted</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Comprehensive</td>
+      <td>EBONY ALVARADO/WE BAEK AND BREW CAF� LLC</td>
+      <td>Caterer</td>
+      <td>Food</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1676</th>
+      <td>47071</td>
+      <td>KYOTO GO JAPANESE GRILL</td>
+      <td>8519 PINEY BRANCH RD</td>
+      <td>NaN</td>
+      <td>SILVER SPRING</td>
+      <td>20901</td>
+      <td>04/18/2022</td>
+      <td>No Critical Violations Noted</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Plans Approved</td>
+      <td>XIAO HUA HE</td>
+      <td>Restaurant</td>
+      <td>Food</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>47071</td>
+      <td>KYOTO GO JAPANESE GRILL</td>
+      <td>8519 PINEY BRANCH RD</td>
+      <td>NaN</td>
+      <td>SILVER SPRING</td>
+      <td>20901</td>
+      <td>04/15/2022</td>
+      <td>No Critical Violations Noted</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Pre-Opening - Environmental</td>
+      <td>XIAO HUA HE</td>
+      <td>Restaurant</td>
+      <td>Food</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>9834</th>
+      <td>47065</td>
+      <td>BURLINGTON #1285</td>
+      <td>12089 ROCKVILLE PIKE</td>
+      <td>NaN</td>
+      <td>ROCKVILLE</td>
+      <td>20852</td>
+      <td>04/13/2022</td>
+      <td>No Critical Violations Noted</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Pre-Opening - Environmental</td>
+      <td>BURLINGTON COAT FACTORY WAREHOUSE CORP</td>
+      <td>Market</td>
+      <td>Food</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1251</th>
+      <td>47052</td>
+      <td>OLNEY CRAB HOUSE</td>
+      <td>18200 GEORGIA AVE UNIT F &amp; G</td>
+      <td>NaN</td>
+      <td>OLNEY</td>
+      <td>20832</td>
+      <td>04/15/2022</td>
+      <td>No Critical Violations Noted</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Pre-Opening - Environmental</td>
+      <td>LIANG LI</td>
+      <td>Restaurant</td>
+      <td>Food</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4045</th>
+      <td>47051</td>
+      <td>YIRASAI SUSHI</td>
+      <td>12525 D PARK POTOMA AVE</td>
+      <td>NaN</td>
+      <td>POTOMAC</td>
+      <td>20854</td>
+      <td>04/05/2022</td>
+      <td>No Critical Violations Noted</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Pre-Opening - Environmental</td>
+      <td>YIRASAI INC</td>
+      <td>Restaurant</td>
+      <td>Food</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>9239</th>
+      <td>47051</td>
+      <td>YIRASAI SUSHI</td>
+      <td>12525 D PARK POTOMA AVE</td>
+      <td>NaN</td>
+      <td>POTOMAC</td>
+      <td>20854</td>
+      <td>04/11/2022</td>
+      <td>No Critical Violations Noted</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Reinspection</td>
+      <td>YIRASAI INC</td>
+      <td>Restaurant</td>
+      <td>Food</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4487</th>
+      <td>47049</td>
+      <td>EATING RECOVERY CENTER</td>
+      <td>6931 ARLINGTON RD</td>
+      <td>NaN</td>
+      <td>BETHESDA</td>
+      <td>20814</td>
+      <td>05/04/2022</td>
+      <td>No Critical Violations Noted</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Pre-Opening - Environmental</td>
+      <td>EATING RECOVERY CENTER LLC</td>
+      <td>Market</td>
+      <td>Food</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>10 rows × 31 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-7e786efd-2872-4526-9f10-6ec857214209')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-7e786efd-2872-4526-9f10-6ec857214209 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-7e786efd-2872-4526-9f10-6ec857214209');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="V1VS1-9yc9PC">
+<p>I sorted the Establishment IDs for the inspection reports done in the different cities of the Montgomery County so I can use first 800 reports to analyze the results. Also, we can see that the IDs are in sequence, but the serial number of dataset (row numbers) are different, which means the reports are all created/reported/inspected on different time. This will be good to have random reports from random areas of the county.</p>
+</div>
+<div class="cell code" data-execution_count="26" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="gKq7m8Z6akkY" data-outputId="3b09e4ca-ece1-4845-a5c2-3f885e829d5e">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>inspection[<span class="st">&#39;City&#39;</span>].unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="26">
+<pre><code>array([&#39;CHEVY CHASE&#39;, &#39;ROCKVILLE&#39;, &#39;SILVER SPRING&#39;, &#39;GAITHERSBURG&#39;,
+       &#39;BETHESDA&#39;, &#39;KENSINGTON&#39;, &#39;WHEATON&#39;, &#39;LAYTONSVILLE&#39;, &#39;GERMANTOWN&#39;,
+       &#39;CLARKSBURG&#39;, &#39;OLNEY&#39;, &#39;POTOMAC&#39;, &#39;BOYDS&#39;, &#39;DERWOOD&#39;,
+       &#39;MONTG. VILLAGE&#39;, &#39;DAMASCUS&#39;, &#39;DARNESTOWN&#39;, &#39;DICKERSON&#39;,
+       &#39;TAKOMA PARK&#39;, &#39;ASHTON&#39;, &#39;MONTGOMERY VILLAGE&#39;, &#39;BROOKEVILLE&#39;,
+       &#39;BURTONSVILLE&#39;, &#39;COLESVILLE&#39;, &#39;MONTGOMERY VIL&#39;, &#39;SANDY SPRING&#39;,
+       &#39;POOLESVILLE&#39;, &#39;GERANTOWN&#39;, &#39;BELTSVILLE&#39;, &#39;ASPEN HILL&#39;,
+       &#39;BARNESVILLE&#39;, &#39;CABIN JOHN&#39;, &#39;MOUNT AIRY&#39;, &#39;SIVER SPRING&#39;,
+       &#39;MONTOGMERY VILLAGE&#39;, &#39;NORTH POTOMAC&#39;, &#39;N. BETHESDA&#39;,
+       &#39;NORTH BETHESDA&#39;, &#39;GLEN ECHO&#39;, &#39;LAYHILL&#39;, &#39;GARRETT PARK&#39;,
+       &#39;GAITHERESBURG&#39;, &#39;LANGLEY PARK&#39;, &#39;GAITHERSUBRG&#39;, &#39;N. POTOMAC&#39;,
+       &#39;MT. AIRY&#39;, &#39;SPENCERVILLE&#39;, &#39;BEALLSVILLE&#39;], dtype=object)</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="jVPX--mVfdzf">
+<p>Displaying the Cities of the Montgomery County from the dataset, so I can have a sense for which cities to add in a list for analyzing. For example, I will add Rockville, Silver Spring, Gaithersburg, Bethesda and Olney.</p>
+<p>Representing data using <code>unique</code> also shows that how inaccurate data is entered in the data set such as wrong spellings of some cities.</p>
+</div>
+<div class="cell code" data-execution_count="27" id="Z1vHsRMZe0ef">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Choosing the specific cities from the dataset</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>cities <span class="op">=</span> [<span class="st">&#39;ROCKVILLE&#39;</span>, <span class="st">&#39;SILVER SPRING&#39;</span>, <span class="st">&#39;GAITHERSBURG&#39;</span>, <span class="st">&#39;BETHESDA&#39;</span>, <span class="st">&#39;OLNEY&#39;</span>]</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Creating a new dataframe and copying the inspections dataset for further filtering</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>cities_df <span class="op">=</span> inspection.copy()</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Filtering the dataset based on the cities I choosed</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>cities_df <span class="op">=</span> cities_df[cities_df[<span class="st">&#39;City&#39;</span>].isin(cities)]</span></code></pre></div>
+</div>
+<div class="cell markdown" id="0kTh8JEvixRW">
+<p>I selected the Main cities of the Montgomery County and created a new DataFrame that Filter those cities into it.</p>
+</div>
+<div class="cell markdown" id="GUqHkO6qj7-H">
+<p><strong>3.2 Rechecking Data</strong></p>
+</div>
+<div class="cell code" data-execution_count="28" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="fjamFHwdkMSK" data-outputId="e652b19b-630f-4987-947e-43a686b0600c">
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Cheking if the columns are filtered</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>cities_df.count()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="28">
+<pre><code>Establishment ID                           9350
+Name                                       9350
+Address 1                                  9350
+Address 2                                   652
+City                                       9350
+Zip                                        9350
+Inspection Date                            9350
+Inspection Results                         9350
+Food from Approved Source (C)              9350
+Food Protected from Contamination (C)      9350
+Ill Workers Restricted (C)                 9350
+Proper Hand Washing (C)                    9350
+Cooling Time and Temperature (C)           9350
+Cold Holding Temperature (C)               9350
+Hot Holding Temperature (C)                9350
+Cooking Time and Temperature (C)           9350
+Reheating Time and Temperature (C)         9350
+Hot and Cold Running Water Provided (C)    9350
+Proper Sewage Disposal (C)                 9350
+Toxic Substances &amp; Pesticides              9350
+Rodent and Insects                         9350
+Nutritional Labeling                       9350
+Trans Fat Ban                              9350
+No-Smoking Sign Posted                     9350
+Inspection Type                            9297
+Owner                                      9344
+Category                                   8977
+Type                                       9350
+Latitude                                   9329
+Longitude                                  9329
+Location                                   9329
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="RWAC5gldkg9R">
+<p>I displayed the new DataFrame using count() to see the difference from actual dataFrame. The copied DataFrame shows the decrease number in Cities. For example, in original dataset the total cities are 12779 and in filtered one, they are 9350 which means these holds the data we need for our filtered cities.</p>
+</div>
+<div class="cell code" data-execution_count="29" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="8ZSa17kajqTL" data-outputId="f96eb6d1-89a7-4c49-ea6e-d49f922ac1cd">
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Checking the current unique cities using unique()</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>cities_df[<span class="st">&#39;City&#39;</span>].unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="29">
+<pre><code>array([&#39;ROCKVILLE&#39;, &#39;SILVER SPRING&#39;, &#39;GAITHERSBURG&#39;, &#39;BETHESDA&#39;, &#39;OLNEY&#39;],
+      dtype=object)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="30" data-colab="{&quot;height&quot;:300,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="nHL3yjdrj3-K" data-outputId="0afc7ff9-4d71-4943-a04c-535d2c23a402">
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Checking the summary statistics again to see the difference</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>cities_df.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="30">
+
+  <div id="df-1f4dcd86-9cb1-48b9-bc51-9b30cda780a4">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Establishment ID</th>
+      <th>Zip</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>9350.000000</td>
+      <td>9.350000e+03</td>
+      <td>9329.000000</td>
+      <td>9329.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>24751.615187</td>
+      <td>8.792898e+04</td>
+      <td>39.069958</td>
+      <td>-77.030895</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>12861.033706</td>
+      <td>3.743365e+06</td>
+      <td>0.060517</td>
+      <td>3.572040</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>11.000000</td>
+      <td>2.070500e+04</td>
+      <td>38.949200</td>
+      <td>-77.285100</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>18172.000000</td>
+      <td>2.085000e+04</td>
+      <td>39.014900</td>
+      <td>-77.178900</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>27884.500000</td>
+      <td>2.087700e+04</td>
+      <td>39.074200</td>
+      <td>-77.116100</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>33481.000000</td>
+      <td>2.090200e+04</td>
+      <td>39.118300</td>
+      <td>-77.051000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>47089.000000</td>
+      <td>2.090245e+08</td>
+      <td>39.254800</td>
+      <td>77.196700</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-1f4dcd86-9cb1-48b9-bc51-9b30cda780a4')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-1f4dcd86-9cb1-48b9-bc51-9b30cda780a4 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-1f4dcd86-9cb1-48b9-bc51-9b30cda780a4');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="tDM0OONMlFh3">
+<p>It seems obivous that the satistics have been changed. Alone these five cities (Rockville, Silver Spring, Gaithersburg, Bethesda and Olney) adds great deal of amount to the statistics. For example, the mean has increased in the establishment of the IDs. It means more of the inspections cases are registered for these five main cities, rest of the cities are not being inspected as often as these are.</p>
+</div>
+<div class="cell markdown" id="tKwna9NhrtZH">
+<p><strong>3.3 Data Combining</strong></p>
+</div>
+<div class="cell code" data-execution_count="31" data-colab="{&quot;height&quot;:206,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="cUsyeMDImJuB" data-outputId="9337be3f-194a-4f2b-f06c-2a870b3486d6">
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Combining all the cities together using pandas groupby() function</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>each_city <span class="op">=</span> cities_df.groupby(cities_df[<span class="st">&#39;City&#39;</span>]).count().reset_index()</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Gathering results for these three columns</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>each_city <span class="op">=</span> each_city[[<span class="st">&#39;City&#39;</span>, <span class="st">&#39;Inspection Date&#39;</span>, <span class="st">&#39;Inspection Results&#39;</span>]]</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>each_city <span class="op">=</span> each_city.sort_values(<span class="st">&#39;Inspection Date&#39;</span>, ascending <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>each_city.columns <span class="op">=</span> [<span class="st">&#39;City&#39;</span>, <span class="st">&#39;Inspection Results&#39;</span>, <span class="st">&#39;Count&#39;</span>]</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>each_city.head(<span class="dv">10</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="31">
+
+  <div id="df-b58c5e71-bba0-4949-a092-23691d5979c9">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>City</th>
+      <th>Inspection Results</th>
+      <th>Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>4</th>
+      <td>SILVER SPRING</td>
+      <td>2954</td>
+      <td>2954</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>GAITHERSBURG</td>
+      <td>2408</td>
+      <td>2408</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>ROCKVILLE</td>
+      <td>2118</td>
+      <td>2118</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>BETHESDA</td>
+      <td>1515</td>
+      <td>1515</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>OLNEY</td>
+      <td>355</td>
+      <td>355</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-b58c5e71-bba0-4949-a092-23691d5979c9')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-b58c5e71-bba0-4949-a092-23691d5979c9 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-b58c5e71-bba0-4949-a092-23691d5979c9');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="1J1RffdRnz96">
+<p>The above data representation is of showing the each city with the exact incpections count and its reported results. All inspection repoarts have inspection results for these cities.</p>
+</div>
+<div class="cell markdown" id="x6NfcfELr2u2">
+<p>#<strong>4. Exploratory Data Analysis</strong></p>
+</div>
+<div class="cell markdown" id="CtMdumh_tJTI">
+<p><strong>4.1 Analyzing Inspections according to the Five Cities</strong></p>
+</div>
+<div class="cell code" data-execution_count="32" data-colab="{&quot;height&quot;:621,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="o9kq35PVnYjF" data-outputId="280b80f5-e475-4bb1-ffbd-35147fb29205">
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Plotting a bar graph using plt</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">12</span>, <span class="dv">10</span>))</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Inspection&quot;</span>, fontsize <span class="op">=</span> <span class="dv">12</span>)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>sns.barplot(data <span class="op">=</span> each_city, x <span class="op">=</span> <span class="st">&#39;City&#39;</span>, y <span class="op">=</span> <span class="st">&#39;Count&#39;</span>)</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_4bfeb8cc89e44d6eb77fb32bffe59b1b/b95d071dc4ca4a01d674e81ebc3f2f6d87fd2099.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="PMoMQssZqTSP">
+<p><strong>Observations:</strong></p>
+<p>Silver Spring city seems to be the most inspected reported city. It means, mostly the food inspction happens in the city of Silver SPring than other cities of the Montgomery County. Than, Gaitersburg and the least city that is less inspected for food safety is Olney from the statistics I gathered from the dataset.</p>
+</div>
+<div class="cell markdown" id="SMwdSmmzteP_">
+<p><strong>4.2 Analyzing all Inspections happened in Montgomery County</strong></p>
+</div>
+<div class="cell code" data-execution_count="33" data-colab="{&quot;height&quot;:543,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="Qml3m8hipbw5" data-outputId="7a02c271-2b60-4cff-9540-d09ba02d00e9">
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Converting the date to datetime </span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>inspection[<span class="st">&#39;Inspection Date&#39;</span>] <span class="op">=</span> pd.to_datetime(inspection[<span class="st">&#39;Inspection Date&#39;</span>], <span class="bu">format</span><span class="op">=</span> <span class="st">&#39;%m/</span><span class="sc">%d</span><span class="st">/%Y&#39;</span>)</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Filtering the dates from the dataset</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>filter_inspection <span class="op">=</span> inspection.loc[(inspection[<span class="st">&#39;Inspection Date&#39;</span>] <span class="op">&gt;=</span> <span class="st">&#39;2021-01-01&#39;</span>)</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>                                  <span class="op">&amp;</span> (inspection[<span class="st">&#39;Inspection Date&#39;</span>] <span class="op">&lt;</span> <span class="st">&#39;2022-01-01&#39;</span>)]</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>filter_inspection.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="33">
+
+  <div id="df-4c0cd70c-c90d-4fb2-a7ad-c481abfbbcd2">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Establishment ID</th>
+      <th>Name</th>
+      <th>Address 1</th>
+      <th>Address 2</th>
+      <th>City</th>
+      <th>Zip</th>
+      <th>Inspection Date</th>
+      <th>Inspection Results</th>
+      <th>Food from Approved Source (C)</th>
+      <th>Food Protected from Contamination (C)</th>
+      <th>...</th>
+      <th>Nutritional Labeling</th>
+      <th>Trans Fat Ban</th>
+      <th>No-Smoking Sign Posted</th>
+      <th>Inspection Type</th>
+      <th>Owner</th>
+      <th>Category</th>
+      <th>Type</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>33467</td>
+      <td>THE THAI KITCHEN</td>
+      <td>7015 WISCONSIN AVE</td>
+      <td>NaN</td>
+      <td>CHEVY CHASE</td>
+      <td>20815</td>
+      <td>2021-08-04</td>
+      <td>Critical Violations Corrected</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Comprehensive</td>
+      <td>THE THAI KITCHEN LLC</td>
+      <td>Restaurant</td>
+      <td>Food</td>
+      <td>38.9797</td>
+      <td>-77.0916</td>
+      <td>(38.9797, -77.0916)</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2610</td>
+      <td>WARREN STREET DELI</td>
+      <td>9226 WARREN ST.</td>
+      <td>NaN</td>
+      <td>SILVER SPRING</td>
+      <td>20910</td>
+      <td>2021-08-04</td>
+      <td>Critical Violations Corrected</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Comprehensive</td>
+      <td>WARREN STREET DELI</td>
+      <td>Restaurant</td>
+      <td>Food</td>
+      <td>39.0066</td>
+      <td>-77.0492</td>
+      <td>(39.0066, -77.0492)</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>29141</td>
+      <td>TALIA'S CUZINA</td>
+      <td>10560 METROPOLITAN AVE</td>
+      <td>NaN</td>
+      <td>KENSINGTON</td>
+      <td>20895</td>
+      <td>2021-11-17</td>
+      <td>Critical Violations Corrected</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Comprehensive</td>
+      <td>CHRIS PANAGIOTOPOULOS</td>
+      <td>Restaurant</td>
+      <td>Food</td>
+      <td>39.0287</td>
+      <td>-77.0739</td>
+      <td>(39.0287, -77.0739)</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>27489</td>
+      <td>WELLER ROAD ELEMENTARY</td>
+      <td>3301 WELLER RD</td>
+      <td>NaN</td>
+      <td>SILVER SPRING</td>
+      <td>20906</td>
+      <td>2021-11-17</td>
+      <td>No Critical Violations Noted</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Comprehensive</td>
+      <td>MONTGOMERY COUNTY PUBLIC SCHOOL</td>
+      <td>Public School- Elementary</td>
+      <td>Food</td>
+      <td>39.0654</td>
+      <td>-77.0672</td>
+      <td>(39.0654, -77.0672)</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>637</td>
+      <td>COUNTRY BOY MARKET</td>
+      <td>2211 RANDOLPH RD.</td>
+      <td>NaN</td>
+      <td>WHEATON</td>
+      <td>20902</td>
+      <td>2021-06-10</td>
+      <td>No Critical Violations Noted</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>...</td>
+      <td>Not applicable</td>
+      <td>In Compliance</td>
+      <td>In Compliance</td>
+      <td>Comprehensive</td>
+      <td>J. M. BARNSLEY, JR. PTR</td>
+      <td>Market</td>
+      <td>Food</td>
+      <td>39.0604</td>
+      <td>-77.0481</td>
+      <td>(39.0604, -77.0481)</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 31 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-4c0cd70c-c90d-4fb2-a7ad-c481abfbbcd2')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-4c0cd70c-c90d-4fb2-a7ad-c481abfbbcd2 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-4c0cd70c-c90d-4fb2-a7ad-c481abfbbcd2');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell code" data-execution_count="34" data-colab="{&quot;height&quot;:515,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="BEFExfqg0FZY" data-outputId="c6df7f41-50e7-41ae-aecc-76023eaa4442">
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Plotting a bar graph using plt</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Inspection&quot;</span>, fontsize <span class="op">=</span> <span class="dv">15</span>)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>sns.barplot(data <span class="op">=</span> filter_inspection, x <span class="op">=</span> <span class="st">&#39;City&#39;</span>, y <span class="op">=</span> <span class="st">&#39;Establishment ID&#39;</span>)</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_4bfeb8cc89e44d6eb77fb32bffe59b1b/3a1ff51fb664eaf87f3c51b17a4b7cd158a42568.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="3eqPCu0ftqAX">
+<p>The above graph represents all the cities' food inspecions cases, some cities have high rates for the food inspections and some cities are very low at inspections rate.</p>
+</div>
+<div class="cell markdown" id="4FLv-9GIJRjd">
+<p>#<strong>5. Hyperthesis Testing</strong></p>
+</div>
+<div class="cell markdown" id="21OChbHZsCxR">
+<p>Based on the Food Inspection dataset, I was able to display information about the inspections constructed in the Montgomery County in the year of 2021 and 2022. The most of the inspections for food safety were exmaine in the city of Silver Spring among Rockville, Silver Spring, Bethesda, Gaithersburg and Olney.</p>
+<p>The next thing will be keep exmaining the data over time since this dataset keeps updating based on the insecptions are happening on daily basis. Evaluating will help in keep track of the cities those are full filling the inspections requirement and passing inspections testing for the food safety. We can aslo keep track of specific Food business those are passing the inspection examing, and take them as example to follow when making food choices.</p>
+</div>
+<div class="cell markdown" id="5e4sNVvcK2Ze">
+<p>#<strong>6.Overall Predictions and Insights</strong></p>
+</div>
+<div class="cell markdown" id="H_vEWyp9Lk7N">
+<p>According to the predictions and analysis, we have found that some of the major cities of the Montgomery county are fulfilling the requirements for their food products to be inspected, and the minor cities are not being inspected as often as the big cities.</p>
+<p>In the Inspection, there were two types of inspections that were conducted on a routine basis. The first type, a comprehensive inspection, which is an inspection that evaluates the sanitation, maintenance, and food service operations for the facility. This inspection includes many of the items found in the monitoring inspection, such as critical temperatures and food handling procedures. The second type, a monitoring inspection, involves checking the food service operation for critical food temperatures, equipment temperatures, and general food handling or cleanliness practices. While monitoring inspections are not as detailed as environmental inspections, they help ensure that the facility is operating safely throughout the year. Which we saw through the Inspection Results from a dataset while representing data.</p>
+<p>The frequency of inspections is based on the food-borne illness risks associated with the food being processed at a business place. Based on the risk each facility is designated as high, medium, or low priority. High priority risk facilities prepare food products a day or more in advance or utilize any combination of two or more processes such as a cooking, cooling, reheating and hot holding food over four hours. Moderate priority risk facilities prepare and cook food products which are served immediately or within four hours. A low priority risk facility serve prepackage foods that are not potentially hazardous. Accordingly, Inspections information for each report associated with the Establishment ID, and their results based on high and low frequency are included in the dataset.</p>
+<p>This information provides enough of understanding about how and why inspecting food safety is important. Inspection for the food business should be conducted more often to provide a healthy and safe enviroment.</p>
+</div>
+</body>
+</html>
